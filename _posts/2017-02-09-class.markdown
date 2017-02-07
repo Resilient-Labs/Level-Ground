@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2017-02-07 10:00:39 -0500
+dateOfClass: Friday, February 3
+categories: class
+author: Frederick Douglass
+name: Mixed Martial Arts
+timeOfClass: 7:00pm - 8:00pm
+instrutor: John Smith
+
+---

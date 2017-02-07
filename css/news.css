@@ -79,6 +79,9 @@
 .comment > textarea {
   columns: 80;
 }
+.articleTitle {
+  text-decoration: none;
+}
 
 /*------------------------------------------------------------------------------
     Media Queries

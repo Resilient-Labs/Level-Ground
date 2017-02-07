@@ -43,6 +43,7 @@
             <section class="multi-post">
               {% for post in site.categories.newspost %}
                 <div class="post">
+                  <a href="#" class="articleTitle"><h3>{{post.title}}</h3></a>
                   {{post.content}}
                   <section class="author-date">
                     <span><i class="fa fa-user" aria-hidden="true"></i>{{post.author}}</span>
