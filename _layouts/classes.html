@@ -65,7 +65,16 @@
       </section>
       <section class="schedule">
         <h3>Upcoming Classes</h3>
+        {% for post in site.categories.class %}
         <div class="upcoming-class">
+          <h4>{{post.name}}</h4>
+          <p>{{post.dateOfClass}}</p>
+          <p>{{post.timeOfClass}}</p>
+          <p>Instructor: {{post.instrutor}}</p>
+          <button type="button" name="button">Sign Up</button>
+        </div>
+        {% endfor %}
+        <!-- <div class="upcoming-class">
           <h4>Class Name</h4>
           <p>Friday, January 6</p>
           <p>7:00pm - 8:30pm</p>
@@ -85,14 +94,7 @@
           <p>7:00pm - 8:30pm</p>
           <p>Instructor: Jane Smith</p>
           <button type="button" name="button">Sign Up</button>
-        </div>
-        <div class="upcoming-class">
-          <h4>Class Name</h4>
-          <p>Friday, January 6</p>
-          <p>7:00pm - 8:30pm</p>
-          <p>Instructor: Jane Smith</p>
-          <button type="button" name="button">Sign Up</button>
-        </div>
+        </div> -->
       </section>
     </section>
     <section class="common success">

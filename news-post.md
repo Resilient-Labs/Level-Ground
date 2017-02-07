@@ -1,5 +1,5 @@
 ---
-layout: news-post
+layout: newspost
 title: News Post
 permalink: /newspost.html
 ---
