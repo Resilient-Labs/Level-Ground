@@ -62,7 +62,7 @@
   display: -ms-flexbox;      /* TWEENER - IE 10 */
   display: -webkit-flex;
   flex-flow: row;
-  width: 350px;
+  width: 450px;
   justify-content: space-between;
   -webkit-flex-flow: row;
   -webkit-justofy-content:space-between;
