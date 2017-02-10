@@ -82,6 +82,10 @@
 .articleTitle {
   text-decoration: none;
 }
+.comment_box{
+  width: 100%;
+  height: 200px;
+}
 
 /*------------------------------------------------------------------------------
     Media Queries
