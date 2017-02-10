@@ -28,7 +28,12 @@
               <a href="hire.html"><li>Hire Us</li></a>
               <a href="news.html"><li>News</li></a>
             </ul>
-            <a href="index.html"><img src="img/new-logo-white.png" alt=""></a>
+            <div class="logo-holder">
+              <a href="index.html"><img src="img/new-logo-white.png" alt=""></a>
+              <section>
+
+              </section>
+            </div>
             <!-- <div id="flag">
               <img src="img/new-logo-white.png" alt="">
             </div> -->
@@ -43,7 +48,7 @@
             <section class="multi-post">
               {% for post in site.categories.newspost %}
                 <div class="post">
-                  <a href="#" class="articleTitle"><h3>{{post.title}}</h3></a>
+                  <a href="{{ post.url }}" class="articleTitle"><h3>{{post.title}}</h3></a>
                   {{post.content}}
                   <section class="author-date">
                     <span><i class="fa fa-user" aria-hidden="true"></i>{{post.author}}</span>

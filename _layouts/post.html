@@ -1,26 +1,87 @@
 ---
 layout: page
 ---
+<section>
+  <div class="newswrapper">
+    <section class="single-post">
+      <div class="post">
+        <h2>{{ page.title }}</h2>
+        <p>{{ content }}</p>
+        <section class="author-date">
+          <span><i class="fa fa-user" aria-hidden="true"></i>{{ page.author }}</span>
+          <span><i class="fa fa-clock-o" aria-hidden="true"></i>{{ page.date | date: "%B %-d, %Y" }}</span>
+        </section>
+        <div class="line">
 
-<div class="post">
-  <!-- Wrapper Start -->
-  <section id="intro" style="border: 1px dotted #ddd;">
-    <div class="container">
-      <div class="row">
-        <div>
-          <div class="block">
-            <h1>{{ page.title }}</h1>
-            <div class="post-info-wrapper">
-              <p class="italic">By <span class="bold">{{ page.author }}</span> on <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span></p>
-            </div>
-            <hr />
-            <p>{{ content }}</p>
-          </div>
-        </div><!-- .col-md-7 close -->
+        </div>
       </div>
-    </div>
-  </section>
-</div>
-<p class="center-text" style="padding: 30px;">
-  <a href="{{ site.baseurl }}/blog">Back to blog</a>
-</p>
+      <div class="comment">
+        <h3>Leave a Reply</h3>
+        <h5>Comment</h5>
+        <input type="text" name="" value="" class="comment_box">
+        <section class="inline-form">
+          <div class="nme">
+            <h5>Name*</h5>
+            <textarea name="name-area" rows="1" cols="30"></textarea>
+          </div>
+          <div class="email">
+            <h5>Email*</h5>
+            <textarea name="email-area" rows="1" cols="30"></textarea>
+          </div>
+        </section>
+        <section class="inline-form">
+          <div class="verf">
+            <span>2+9=</span>
+            <textarea name="verf" rows="1" cols="2"></textarea>
+          </div>
+          <div class="submit">
+            <button type="button" name="submit-button">Submit</button>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section class="post-links">
+      <h4>Recent Posts</h4>
+      <ul>
+        <a href="#"><li>2016 Year-End Campaign: Let's build the first free, youth-managed MMA gym!</li></a>
+        <a href="#"><li>Coming in January 2017: Level Ground Training Center</li></a>
+        <a href="#"><li>LG Student Trainers head to Fall Internships!</li></a>
+        <a href="#"><li>LG Student wins second MMA competition</li></a>
+        <a href="#"><li>LG Students head to Ukraine through State Department-funded initiative</li></a>
+      </ul>
+      <h4>Archive</h4>
+      <ul>
+        <a href="#"><li>November 2016</li></a>
+        <a href="#"><li>September 2016</li></a>
+        <a href="#"><li>August 2016</li></a>
+        <a href="#"><li>June 2016</li></a>
+        <a href="#"><li>May 2016</li></a>
+        <a href="#"><li>April 2016</li></a>
+        <a href="#"><li>February 2016</li></a>
+        <a href="#"><li>December 2015</li></a>
+        <a href="#"><li>November 2015</li></a>
+        <a href="#"><li>October 2015</li></a>
+        <a href="#"><li>April 2015</li></a>
+        <a href="#"><li>February 2015</li></a>
+        <a href="#"><li>January 2015</li></a>
+        <a href="#"><li>December 2014</li></a>
+        <a href="#"><li>September 2014</li></a>
+        <a href="#"><li>August 2014</li></a>
+        <a href="#"><li>July 2014</li></a>
+      </ul>
+      <h4>Categories</h4>
+      <ul>
+        <a href="#"><li>Competition</li></a>
+        <a href="#"><li>Motivational</li></a>
+        <a href="#"><li>Organizations</li></a>
+        <a href="#"><li>People</li></a>
+        <a href="#"><li>Success</li></a>
+        <a href="#"><li>Uncategorized</li></a>
+        <li><a href="#">Uplifting</a></li>
+      </ul>
+    </section>
+    <p class="center-text" style="padding: 30px;">
+      <a href="{{ site.baseurl }}/news">Back to blog</a>
+    </p>
+  </div>
+</section>
