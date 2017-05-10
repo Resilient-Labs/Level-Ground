@@ -1,0 +1,88 @@
+/*.hero-overlay {*/
+  /*display: block;*/
+  /*height: 100%;*/
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*width: 100%;*/
+  /*background-color: rgba(255, 255, 255, .8);*/
+/*}*/
+section.hero, .hero {
+
+}
+.hero-overlay {
+  margin: 30px auto;
+  padding: 30px;
+  position: absolute;
+  top: 0;
+}
+.hero-overlay h1 {
+  color: #e0922f;
+  text-align: center;
+}
+.hero-overlay h3 {
+  color: #e0922f;
+  margin: 15px auto;
+  max-width: 75%;
+  text-align: center;
+}
+video {
+  max-width: 100%;
+  position: relative;
+}
+video::before {
+  content:"";
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, .8);
+}
+/*-----------------------------------
+# Media Queries
+------------------------------------*/
+/*-----------------------------------
+## Wide Screens, Large Devices
+------------------------------------*/
+@media only screen and (max-width : 1200px) {
+
+}
+/*-----------------------------------
+## Desktops, Medium Devices
+------------------------------------*/
+@media only screen and (max-width : 992px)  {
+  .hero-overlay {
+    margin: 0 auto;
+    position: relative;
+  }
+}
+/*-----------------------------------
+## Tablets, Small Devices
+------------------------------------*/
+@media only screen and (max-width : 768px)  {
+  .hero-overlay {
+    margin: 0 auto;
+    position: relative;
+  }
+  .hero-overlay h3 {
+    max-width: 100%;
+    text-align: left;
+    width: 100%;
+  }
+}
+/*-----------------------------------
+## Phones, Extra Small Devices
+------------------------------------*/
+@media only screen and (max-width: 480px) {
+  .hero-overlay {
+    margin: 0 auto;
+    padding: 15px;
+    position: relative;
+  }
+  .hero-overlay h3 {
+    max-width: 100%;
+    width: 100%;
+  }
+}

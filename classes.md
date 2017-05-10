@@ -1,5 +1,5 @@
 ---
-layout: classes
+layout: classes_mu
 title: Classes
 permalink: /classes.html
 ---

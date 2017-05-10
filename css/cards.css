@@ -1,0 +1,79 @@
+/*cards large*/
+.card {
+  display: table-cell;
+  margin: 0;
+  padding: 30px 15px;
+  width: 50%;
+}
+.card.yellow {
+  background-color: #e0922f;
+}
+.card.white {
+  background-color: #fff;
+}
+.card img {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-height: 200px;
+  max-width: 100%;
+  text-align: center;
+}
+.card h4 {
+  text-align: center;
+}
+.card p {
+  max-width: 80%;
+  margin: 15px auto;
+}
+.card button {
+  border: none;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 45px;
+  text-transform: uppercase;
+}
+.card.yellow button {
+  background-color: #fff;
+  color: #e0922f;
+}
+.card.white button {
+  background-color: #e0922f;
+  color: #fff;
+}
+/*-----------------------------------
+# Media Queries
+------------------------------------*/
+/*-----------------------------------
+## Wide Screens, Large Devices
+------------------------------------*/
+@media only screen and (max-width : 1200px) {
+
+}
+/*-----------------------------------
+## Desktops, Medium Devices
+------------------------------------*/
+@media only screen and (max-width : 992px)  {
+
+}
+/*-----------------------------------
+## Tablets, Small Devices
+------------------------------------*/
+@media only screen and (max-width : 768px)  {
+  .card {
+    display: block;
+    padding: 30px;
+    width: 100%;
+  }
+}
+/*-----------------------------------
+## Phones, Extra Small Devices
+------------------------------------*/
+@media only screen and (max-width: 480px) {
+  .card {
+    padding: 15px;
+  }
+  .card p {
+    max-width: 100%;
+  }
+}

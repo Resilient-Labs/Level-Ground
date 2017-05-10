@@ -1,0 +1,11 @@
+<section class="news-post">
+  <h2>Title {{ page.title }}</h2>
+  <p>Content: {{ page.content }} </p>
+  <small>Author: {{ page.author }}</small>
+
+  <small>Now: {{ 'now' | date: "%Y %h" }}</small>
+  {{ page.date }}
+</section>
+<aside class="news-sidebar">
+  Stuff here
+</aside>
