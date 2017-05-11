@@ -1,11 +1,36 @@
-<section class="news-post">
-  <h2>Title {{ page.title }}</h2>
-  <p>Content: {{ page.content }} </p>
-  <small>Author: {{ page.author }}</small>
+<!DOCTYPE html>
+<html class="no-js">
+<head>
 
-  <small>Now: {{ 'now' | date: "%Y %h" }}</small>
-  {{ page.date }}
+  {% include head.html %}
+
+</head>
+<body>
+
+{% include header.html %}
+
+<section class="news-banner">
+  <h1>News</h1>
+  <div>
+    <img src="{{ site.baseurl }}/img/SOR_6439.jpg" alt="" />
+  </div>
 </section>
-<aside class="news-sidebar">
-  Stuff here
-</aside>
+
+<section class="news-page">
+<section class="news-posts">
+  <section class="news-post">
+    <h4>{{ page.title }}</h4>
+    {{ page.content }}
+    <div class="news-post-meta">
+      <small>
+        <i class="fa fa-user" aria-hidden="true"></i><span>{{ page.author }}</span>
+        <i class="fa fa-clock-o" aria-hidden="true"></i><span>{{ page.date }}</span>
+      </small>
+    </div>
+  </section>
+</section>
+{% include sidebar.html %}
+</section>
+{% include footer.html %}
+</body>
+</html>

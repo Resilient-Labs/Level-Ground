@@ -8,24 +8,32 @@
 <body>
 
 {% include header.html %}
-
-<section class="news-page">
-  <div class="news-banner">
-    <h1>News</h1>
+<section class="news-banner">
+  <h1>News</h1>
+  <div>
+    <img src="{{ site.baseurl }}/img/SOR_6439.jpg" alt="" />
   </div>
+</section>
+<section class="news-page">
   <section class="news-posts">
     {% assign news = site.news | sort: 'date' %}
 
     {% for news-post in news reversed %}
     <section class="news-post">
-      <p>{{ news-post.author }}</p>
-      <small>{{ news-post.title }}</small>
+      <h4>
+        <a href="{{ site.baseurl }}{{ news-post.url }}">{{ news-post.title }}</a>
+      </h4>
+      {{ news-post.content }}
+      <div class="news-post-meta">
+        <small>
+          <i class="fa fa-user" aria-hidden="true"></i><span>{{ news-post.author }}</span>
+          <i class="fa fa-clock-o" aria-hidden="true"></i><span>{{ news-post.date }}</span>
+        </small>
+      </div>
     </section>
     {% endfor %}
   </section>
-  <aside class="news-sidebar">
-    Side bar
-  </aside>
+  {% include sidebar.html %}
 </section>
 
 
@@ -33,3 +41,4 @@
 
 </body>
 </html>
+

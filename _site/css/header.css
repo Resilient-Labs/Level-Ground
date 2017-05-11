@@ -24,20 +24,24 @@ header nav ul {
   display: inline-block;
   list-style: none;
   padding: 0;
+  width: calc(100% / 3);
 }
 header nav ul a {
   color: #e0922f;
   display: inline-block;
-  /*padding: 0 15px;*/
+  margin: 0 15px;
   text-decoration: none;
 }
-header nav div {
-  background-color: #e0922f;
-  display: inline-block;
-  padding: 15px;
-  position: relative;
+header nav ul a:hover {
+  text-decoration: underline;
 }
-header nav div:after {
+header nav .logo-container {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: calc(100% / 3);
+}
+header nav .logo-container:after {
   /*content: "";*/
   /*position: absolute;*/
   /*height: 0;*/
@@ -48,12 +52,24 @@ header nav div:after {
   /*border-style: solid;*/
   /*border-color: #e0922f transparent transparent;*/
 }
-header nav div a .logo {
-  max-height: 60px;
-}
-header nav button {
+header nav .logo-container a .logo {
   background-color: #e0922f;
+  max-height: 80px;
+  padding: 15px;
+}
+header nav .nav-button-container {
+
+}
+header nav span {
   display: inline-block;
+  text-align: right;
+  width: calc(100% / 3);
+}
+header nav span a {
+
+}
+header nav span a button {
+  background-color: #e0922f;
 }
 /*-----------------------------------
 # Media Queries

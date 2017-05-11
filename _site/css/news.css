@@ -2,13 +2,13 @@
   background-color: #ddd;
   display: block;
   float: left;
-  padding: 15px;
+  padding: 45px;
   width: 100%;
 }
 .news-posts {
   display: inline-block;
   float: left;
-  width: 75%;
+  width: 70%;
 }
 .news-banner {
   display: block;
@@ -23,7 +23,7 @@
   width: 100%;
 }
 .news-post h2 {
-  color: red;
+
 }
 .news-post p {
 
@@ -31,148 +31,104 @@
 .news-post {
 
 }
+.news-post h4 a {
+  color: #414345;
+}
 .news-sidebar {
   display: inline-block;
   float: left;
   padding: 15px;
-  width: 25%;
+  width: 30%;
 }
-/*.newswrapper {*/
-  /*display: flex;*/
-  /*display: -webkit-box;      !* OLD - iOS 6-, Safari 3.1-6 *!*/
-  /*display: -moz-box;         !* OLD - Firefox 19- (buggy but mostly works) *!*/
-  /*display: -ms-flexbox;      !* TWEENER - IE 10 *!*/
-  /*display: -webkit-flex;*/
-  /*flex-flow: row wrap;*/
-  /*-webkit-flex-flow:row wrap;*/
-  /*justify-content: space-between;*/
-/*}*/
-/*.single-post {*/
-  /*border: 1px solid lightgrey;*/
-/*}*/
-/*.multi-post,.single-post {*/
-  /*width: 70%;*/
-  /*padding: 20px;*/
-/*}*/
-/*.post-links {*/
-  /*width: 25%;*/
-/*}*/
+.news-sidebar .news-sidebar-titles {
+  color: #e0922f;
+  display: block;
+  width: 100%;
+}
+.news-sidebar h4 {
+  color: #e0922f;
+  margin-top: 0;
+}
+.news-posts .news-post-meta {
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+}
+.news-posts .news-post-meta * {
+  margin-right: 15px;
+}
+.news-posts .news-post-meta .fa {
+  color: #e0922f;
+}
+.news-banner {
+  position: relative;
+}
+.news-banner h1 {
+  color: #e0922f;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.news-banner div {
+  height: 540px;
+  overflow: hidden;
+  width: 100%;
+}
+.news-banner div img {
+  height: auto;
+  width: 100%;
+}
+/*-----------------------------------
+# Media Queries
+------------------------------------*/
+/*-----------------------------------
+## Wide Screens, Large Devices
+------------------------------------*/
+@media only screen and (max-width : 1200px) {
 
-/*.post-links ul {*/
-  /*list-style: none;*/
-  /*padding-left: 0;*/
-/*}*/
-/*.post-links ul li {*/
-  /*margin: 20px 0;*/
-/*}*/
-/*.post-links a {*/
-  /*text-decoration: none;*/
-  /*color: grey;*/
-/*}*/
-/*.multi-post {*/
-  /*display: flex;*/
-  /*flex-flow: column;*/
-/*}*/
-/*.multi-post > .post {*/
-  /*border: 1px solid lightgrey;*/
-  /*margin-bottom: 40px;*/
-  /*padding: 15px;*/
-/*}*/
-/*.comment h3 {*/
-  /*margin-top: 40px;*/
-  /*text-align: center;*/
-/*}*/
-/*.inline-form {*/
-  /*display: flex;*/
-  /*display: -webkit-box;      !* OLD - iOS 6-, Safari 3.1-6 *!*/
-  /*display: -moz-box;         !* OLD - Firefox 19- (buggy but mostly works) *!*/
-  /*display: -ms-flexbox;      !* TWEENER - IE 10 *!*/
-  /*display: -webkit-flex;*/
-  /*flex-flow: row;*/
-  /*-webkit-flex-flow: row;*/
-  /*justify-content: space-between;*/
-  /*-webkit-justofy-content:space-between;*/
-  /*margin: 20px 0;*/
-/*}*/
-/*.author-date {*/
-  /*display: flex;*/
-  /*display: -webkit-box;      !* OLD - iOS 6-, Safari 3.1-6 *!*/
-  /*display: -moz-box;         !* OLD - Firefox 19- (buggy but mostly works) *!*/
-  /*display: -ms-flexbox;      !* TWEENER - IE 10 *!*/
-  /*display: -webkit-flex;*/
-  /*flex-flow: row;*/
-  /*width: 450px;*/
-  /*justify-content: space-between;*/
-  /*-webkit-flex-flow: row;*/
-  /*-webkit-justofy-content:space-between;*/
-/*}*/
-/*.author-date span {*/
-  /*color: grey;*/
-/*}*/
-/*.line {*/
-  /*width: 100%;*/
-  /*border-top: 1px solid grey;*/
-  /*margin: 20px auto;*/
-
-/*}*/
-/*.comment > textarea {*/
-  /*columns: 80;*/
-/*}*/
-/*.articleTitle {*/
-  /*text-decoration: none;*/
-/*}*/
-/*.comment_box{*/
-  /*width: 100%;*/
-  /*height: 200px;*/
-/*}*/
-
-/*!*------------------------------------------------------------------------------*/
-    /*Media Queries*/
-/*------------------------------------------------------------------------------*!*/
-/*@media  (max-width:767px) and (orientation:portrait) {*/
-  /*.post-links {*/
-    /*display: none;*/
-  /*}*/
-  /*.multi-post, .single-post {*/
-    /*width: 100%;*/
-    /*padding: 0;*/
-  /*}*/
-  /*.author-date {*/
-    /*flex-flow: column;*/
-    /*-webkit-flex-flow: column;*/
-  /*}*/
-  /*.author-date span{*/
-    /*width: 70%;*/
-  /*}*/
-  /*.inline-form {*/
-    /*flex-flow: column;*/
-    /*-webkit-flex-flow: column;*/
-  /*}*/
-  /*.comment > textarea {*/
-    /*columns: 50;*/
-  /*}*/
-/*}*/
-
-/*@media  (max-width:767px) and (orientation:landscape) {*/
-  /*.post-links {*/
-    /*display: none;*/
-  /*}*/
-  /*.multi-post, .single-post {*/
-    /*width: 100%;*/
-    /*padding: 0;*/
-  /*}*/
-/*}*/
-
-/*@media  (max-width:1024px) and (orientation:portrait) {*/
-  /*.post-links {*/
-    /*display: none;*/
-  /*}*/
-  /*.multi-post, .single-post {*/
-    /*width: 100%;*/
-    /*padding: 0;*/
-  /*}*/
-/*}*/
-
-/*@media  (max-width:1024px) and (orientation:landscape) {*/
-
-/*}*/
+}
+/*-----------------------------------
+## Desktops, Medium Devices
+------------------------------------*/
+@media only screen and (max-width : 992px)  {
+  .news-page {
+    padding: 30px;
+  }
+  .news-banner div {
+    height: 400px;
+  }
+}
+/*-----------------------------------
+## Tablets, Small Devices
+------------------------------------*/
+@media only screen and (max-width : 768px)  {
+  .news-page {
+    padding: 15px;
+  }
+  .news-banner div {
+    height: 300px;
+  }
+  .news-posts {
+    width: 100%;
+  }
+  .news-sidebar {
+    display: none;
+  }
+}
+/*-----------------------------------
+## Phones, Extra Small Devices
+------------------------------------*/
+@media only screen and (max-width: 480px) {
+  .news-page {
+    padding: 15px;
+  }
+  .news-banner div {
+    height: 240px;
+  }
+  .news-posts {
+    width: 100%;
+  }
+  .news-sidebar {
+    display: none;
+  }
+}

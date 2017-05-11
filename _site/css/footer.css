@@ -11,6 +11,8 @@ footer {
   -webkit-justify-content:space-between;
   align-items:flex-start;
   -webkit-align-items:flex-start;
+  float: left;
+  width: 100%;
 }
 footer h6 {
   color: #fdc43a;
