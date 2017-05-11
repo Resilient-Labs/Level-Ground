@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4468d042-ad89-4bf4-9d87-edb4117058be" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/index-old.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/news-old.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/news-page-old.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/newspost.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/assets/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/donate.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/news-page.html" afterPath="$PROJECT_DIR$/_layouts/news-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/news-post.html" afterPath="$PROJECT_DIR$/_layouts/news-post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_news/2017-05-09-news-campaign2.md" afterPath="$PROJECT_DIR$/_news/2017-05-09-news-campaign2.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_news/badmon.md" afterPath="$PROJECT_DIR$/_news/badmon.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/footer.css" afterPath="$PROJECT_DIR$/_site/css/footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/header.css" afterPath="$PROJECT_DIR$/_site/css/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/news.css" afterPath="$PROJECT_DIR$/_site/css/news.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/newspost.html" afterPath="$PROJECT_DIR$/_site/newspost.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes.md" afterPath="$PROJECT_DIR$/classes.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/footer.css" afterPath="$PROJECT_DIR$/css/footer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/header.css" afterPath="$PROJECT_DIR$/css/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hero.css" afterPath="$PROJECT_DIR$/css/hero.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/news.css" afterPath="$PROJECT_DIR$/css/news.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.md" afterPath="$PROJECT_DIR$/news.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -89,21 +60,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="214">
+              <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hero.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hero.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/hero.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -181,8 +152,8 @@
         <option value="$PROJECT_DIR$/_layouts/news-page.html" />
         <option value="$PROJECT_DIR$/css/news.css" />
         <option value="$PROJECT_DIR$/_layouts/news-post.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/css/hero.css" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -399,12 +370,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1494296400686</updated>
-      <workItem from="1494296402363" duration="32190000" />
+      <workItem from="1494296402363" duration="32635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32190000" />
+    <option name="totallyTimeSpent" value="32635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="23" width="1591" height="844" extended-state="0" />
@@ -802,18 +773,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/css/hero.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/hero.css">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="214">
+          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
           <folding />
         </state>
       </provider>
