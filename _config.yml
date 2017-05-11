@@ -32,7 +32,7 @@ subtitle: "The Jekyll-Forestry theme for Level Ground Mixed Martial Arts"
 email: ali@levelgroundmma.org
 description: "Level Ground Mixed Martial Arts"
 url: "http://muigaiunaka.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/lgmma" # the subpath of your site, e.g. /blog
+baseurl: "/Level-Ground" # the subpath of your site, e.g. /blog
 
 # Build settings
 markdown: kramdown
