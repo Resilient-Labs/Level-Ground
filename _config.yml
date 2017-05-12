@@ -57,10 +57,11 @@ defaults:
         description: ""
 
   - scope:
-        path: ""
+        path: "news/entries/"
         type: "news"
     values:
         layout: news-post
         author: "Ali Fuller"
         title: "LG MMA News"
+        permalink: pretty
 
