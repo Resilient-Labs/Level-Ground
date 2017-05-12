@@ -2,70 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4468d042-ad89-4bf4-9d87-edb4117058be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/404.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/away.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/footer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/header.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/news.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/our-gym.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/sponsor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/success.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/css/visit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/feed.xslt.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/BPS-Logo-FOC.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/Boston-Foundation-Logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/DSCF3460.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/DSCF3463.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/DSCF3749_HDR.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/LG-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/LG1_8109 (1).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/LG1_8148 (1).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/LG1_8170.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/Naga.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/SOR_6334.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/SOR_6336.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/SOR_6338.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/SOR_6354.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/SOR_6362.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/SOR_6368.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/SOR_6400.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/SOR_6406.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/SOR_6439.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/SOR_6461.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/SOR_6494.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/SOR_6496.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/Valley-YMCA-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/Weight Loss.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/bu-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/citizen-schools-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/hub-church.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/impacthub.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/levelground2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/levisback.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/motivation.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/new-logo-orange-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/new-logo-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/northeastern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/rev-gear-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/img/yearup.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/newspost.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_site/success.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/news-post.md" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/classes_mu.html" afterPath="$PROJECT_DIR$/_layouts/classes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_news/2017-05-09-news-campaign2.md" afterPath="$PROJECT_DIR$/_news/2017-05-09-news-campaign2.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_news/2017-05-10-news-campaign.md" afterPath="$PROJECT_DIR$/_news/2017-05-10-news-campaign.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes.md" afterPath="$PROJECT_DIR$/classes.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -133,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="69" lean-forward="true" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+            <state relative-caret-position="255">
+              <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -147,13 +86,13 @@
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+              <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="404.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="404.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/404.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -162,6 +101,16 @@
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -231,8 +180,9 @@
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/.sass-cache/404.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/404.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
       </list>
     </option>
   </component>
@@ -380,12 +330,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1494296400686</updated>
-      <workItem from="1494296402363" duration="38698000" />
+      <workItem from="1494296402363" duration="39292000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38698000" />
+    <option name="totallyTimeSpent" value="39292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="23" width="1591" height="844" extended-state="0" />
@@ -421,14 +371,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -772,15 +714,7 @@
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="69" lean-forward="true" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -793,6 +727,22 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="62" lean-forward="true" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
