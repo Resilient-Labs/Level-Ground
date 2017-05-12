@@ -8,12 +8,16 @@
 <body>
 
 {% include header.html %}
-<section class="news-banner">
-  <h1>News</h1>
-  <div>
-    <img src="{{ site.baseurl }}/img/SOR_6439.jpg" alt="" />
-  </div>
-</section>
+<!--<section class="news-banner">-->
+  <!--<h1>News</h1>-->
+  <!--<div>-->
+    <!--<img src="{{ site.baseurl }}/img/SOR_6439.jpg" alt="" />-->
+  <!--</div>-->
+<!--</section>-->
+{% include hero-photo.html
+  title="News"
+  photo="SOR_6439.jpg"
+%}
 <section class="news-page">
   <section class="news-posts">
     {% assign news = site.news | sort: 'date' %}

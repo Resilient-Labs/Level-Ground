@@ -1,0 +1,11 @@
+<section class="hero-photo">
+  <h1>{{ include.title }}</h1>
+  {% if include.button-cta %}
+    <a href="#">
+      <button>{{ include.button-cta }}</button>
+    </a>
+  {% endif %}
+  <div>
+    <img src="{{ site.baseurl }}/img/{{ include.photo }}" alt="" />
+  </div>
+</section>

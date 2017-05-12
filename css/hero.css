@@ -10,6 +10,27 @@
 section.hero, .hero {
 
 }
+.hero-photo {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.hero-photo h1 {
+  color: #e0922f;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.hero-photo div {
+  height: 540px;
+  overflow: hidden;
+  width: 100%;
+}
+.hero-photo div img {
+  height: auto;
+  width: 100%;
+}
 .hero-overlay {
   padding: 0px 30px;
   position: absolute;
@@ -56,6 +77,9 @@ video::before {
     margin: 0 auto;
     position: relative;
   }
+  .hero-photo div {
+    height: 400px;
+  }
 }
 /*-----------------------------------
 ## Tablets, Small Devices
@@ -70,6 +94,9 @@ video::before {
     text-align: left;
     width: 100%;
   }
+  .hero-photo div {
+    height: 300px;
+  }
 }
 /*-----------------------------------
 ## Phones, Extra Small Devices
@@ -83,5 +110,8 @@ video::before {
   .hero-overlay h3 {
     max-width: 100%;
     width: 100%;
+  }
+  .hero-photo div {
+    height: 300px;
   }
 }
