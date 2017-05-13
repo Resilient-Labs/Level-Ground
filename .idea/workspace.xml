@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4468d042-ad89-4bf4-9d87-edb4117058be" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/donate.html" afterPath="$PROJECT_DIR$/_layouts/donate-old.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/hire.html" afterPath="$PROJECT_DIR$/_layouts/hire-old.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_layouts/success.html" afterPath="$PROJECT_DIR$/_layouts/success-old.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/hero-photo.html" afterPath="$PROJECT_DIR$/_includes/hero-photo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/classes.html" afterPath="$PROJECT_DIR$/_layouts/classes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/home.html" afterPath="$PROJECT_DIR$/_layouts/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/news-page.html" afterPath="$PROJECT_DIR$/_layouts/news-page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/news-post.html" afterPath="$PROJECT_DIR$/_layouts/news-post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/footer.css" afterPath="$PROJECT_DIR$/css/footer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/row.css" afterPath="$PROJECT_DIR$/css/row.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,7 +20,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -85,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="row.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="row.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/row.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -201,9 +189,9 @@
         <option value="$PROJECT_DIR$/_layouts/success-stories.html" />
         <option value="$PROJECT_DIR$/_layouts/classes.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
-        <option value="$PROJECT_DIR$/css/row.css" />
         <option value="$PROJECT_DIR$/_layouts/gym.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/css/row.css" />
       </list>
     </option>
   </component>
@@ -421,12 +409,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1494296400686</updated>
-      <workItem from="1494296402363" duration="44768000" />
+      <workItem from="1494296402363" duration="44848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44768000" />
+    <option name="totallyTimeSpent" value="44848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="23" width="1591" height="844" extended-state="0" />
@@ -852,14 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/row.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/gym.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -876,6 +856,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/row.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

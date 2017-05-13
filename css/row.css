@@ -1,15 +1,18 @@
 .row {
   display: block;
-  padding: 30px;
+  padding: 15px;
   position: relative;
   width: 100%;
 }
 .row .content {
   display: inline-block;
+  padding: 15px;
   width: 50%;
 }
 .row .media {
   display: inline-block;
+  float: left;
+  padding: 15px;
   width: 50%;
 }
 .row .media img {
