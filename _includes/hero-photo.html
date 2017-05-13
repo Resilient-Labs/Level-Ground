@@ -1,7 +1,7 @@
 <section class="hero-photo">
   <h1>{{ include.title }}</h1>
   {% if include.button-cta %}
-    <a href="#">
+    <a href="{{ site.url }}/{{ include.button-link }}">
       <button>{{ include.button-cta }}</button>
     </a>
   {% endif %}

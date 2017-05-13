@@ -59,8 +59,10 @@ footer ul li {
   margin: 0;
 }
 footer i {
-  margin-right: 20px;
+  color: #fff;
+  font-size: 18px;
   margin-bottom: 15px;
+  margin-right: 20px;
 }
 footer h5 {
   margin: 0;
@@ -68,4 +70,31 @@ footer h5 {
 footer ul a {
   color: #fff;
   text-decoration: none;
+}
+/*-----------------------------------
+# Media Queries
+------------------------------------*/
+/*-----------------------------------
+## Wide Screens, Large Devices
+------------------------------------*/
+@media only screen and (max-width : 1200px) {
+
+}
+/*-----------------------------------
+## Desktops, Medium Devices
+------------------------------------*/
+@media only screen and (max-width : 992px)  {
+
+}
+/*-----------------------------------
+## Tablets, Small Devices
+------------------------------------*/
+@media only screen and (max-width : 768px)  {
+
+}
+/*-----------------------------------
+## Phones, Extra Small Devices
+------------------------------------*/
+@media only screen and (max-width: 480px) {
+
 }

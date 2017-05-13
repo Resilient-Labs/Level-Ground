@@ -49,3 +49,12 @@ then displays that content in chronological order with a sidebar included in the
 9) Select the repository and set the branch to gh-pages 
 10) Set a name for the newly generated site and set the url to be the concatenated 
 string of the url and baseurl that is set in the config.yml file
+
+#### Todo:
+Responsive Footer
+Success Stories
+Gym
+MindBody integration with Ali
+Include loop of Sponsor logos (make reference in data)
+put real videos and final images in
+Clean up any css

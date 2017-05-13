@@ -1,0 +1,54 @@
+.row {
+  display: block;
+  padding: 30px;
+  position: relative;
+  width: 100%;
+}
+.row .content {
+  display: inline-block;
+  width: 50%;
+}
+.row .media {
+  display: inline-block;
+  width: 50%;
+}
+.row .media img {
+  height: auto;
+  width: 100%;
+}
+.row .content button {
+  background-color: #e0922f;
+  border: none;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 45px;
+  text-align: center;
+}
+/*-----------------------------------
+# Media Queries
+------------------------------------*/
+/*-----------------------------------
+## Wide Screens, Large Devices
+------------------------------------*/
+@media only screen and (max-width : 1200px) {
+
+}
+/*-----------------------------------
+## Desktops, Medium Devices
+------------------------------------*/
+@media only screen and (max-width : 992px)  {
+
+}
+/*-----------------------------------
+## Tablets, Small Devices
+------------------------------------*/
+@media only screen and (max-width : 768px)  {
+
+}
+/*-----------------------------------
+## Phones, Extra Small Devices
+------------------------------------*/
+@media only screen and (max-width: 480px) {
+
+}
