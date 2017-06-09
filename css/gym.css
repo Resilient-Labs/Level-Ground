@@ -1,0 +1,22 @@
+.sponsors {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 30px auto;
+  width: 75%;
+  border-top: 1px solid lightgrey;
+}
+.sponsors h3 {
+  text-align: center;
+  width: 100%;
+}
+.sponsors a {
+  margin: 5px 10px;
+  width: calc(100% / 8);
+
+}
+.sponsors a img {
+  height: auto;
+  width: 100%;
+}

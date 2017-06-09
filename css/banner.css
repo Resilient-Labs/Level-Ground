@@ -1,8 +1,15 @@
 .banner {
-  margin: 90px auto;
+  align-items: center;
+  clear: both;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: 0px auto;
+  padding: 90px 0;
   width: 66%;
 }
 .banner h2 {
+  clear: both;
   text-align: center;
 }
 .banner p {

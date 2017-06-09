@@ -31,6 +31,9 @@ section.hero, .hero {
   height: auto;
   width: 100%;
 }
+.hero button {
+  
+}
 .hero-overlay {
   padding: 0px 30px;
   position: absolute;

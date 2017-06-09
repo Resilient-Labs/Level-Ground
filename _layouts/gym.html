@@ -10,7 +10,7 @@ photo="SOR_6439.jpg"
 %}
 
 
-<!--INCLUDE TESTIMONIAL ROW STARTS -->
+<!--INCLUDE TRAINING CENTER ROW STARTS -->
 {% include row-content-media.html
 title="Our Training Center"
 content="The LG Training Center includes a 2,000 square foot mat space for combat sports, as well as our Beat 58 Personal Training Studio.  Whether you’re looking to develop as an athlete in MMA, want to explore the ‘gentle art’ of Brazilian Jiu Jitsu, or are simply looking to get back in shape with one of our trainers, you have a home here."
@@ -18,5 +18,28 @@ photo="SOR_6439.jpg"
 button-link="classes"
 button-cta="Book a Class"
 %}
-<!--INCLUDE TESTIMONIAL ROW ENDS-->
+<!--INCLUDE TRAINING CENTER ROW ENDS-->
 
+<section>
+  <section>
+
+  </section>
+</section>
+
+<!--INCLUDE BANNER ROW START-->
+{% include banner.html
+title="Under 22? Check Out Our Success Tracks"
+content="If you are between the ages of 5-22, you may qualify for free training by joining one of our Success Tracks.  Our Tutoring and College Access programs includes weekly tutoring and connection to 2 and 4 year university options.  Our Student Trainer program trains you to become a fitness professional, and links you to an internship with a Boston-based gym.  You may also earn free training by helping to clean and maintain the Training Center.
+"
+button="SEE SUCCESS TRACKS"
+%}
+<!--INCLUDE BANNER ROW ENDS-->
+
+<section class="sponsors">
+  <h3>SPONSORSHIP</h3>
+  {% for sponsors in site.data.sponsors %}
+    <a href="{{ sponsors.url }}">
+      <img src="{{ sponsors.image }}" alt="">
+    </a>
+  {% endfor %}
+</section>
