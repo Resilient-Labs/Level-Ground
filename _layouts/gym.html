@@ -2,44 +2,116 @@
 layout: default
 ---
 
-{% include hero-photo.html
-title="In Struggle There's Growth"
-button-link="classes"
-button-cta="See Classes"
-photo="SOR_6439.jpg"
-%}
+  {% include hero-photo.html
+  title="In Struggle There's Growth"
+  button-link="classes"
+  photo="SOR_6439.jpg"
+  %}
 
 
-<!--INCLUDE TRAINING CENTER ROW STARTS -->
-{% include row-content-media.html
-title="Our Training Center"
-content="The LG Training Center includes a 2,000 square foot mat space for combat sports, as well as our Beat 58 Personal Training Studio.  Whether you’re looking to develop as an athlete in MMA, want to explore the ‘gentle art’ of Brazilian Jiu Jitsu, or are simply looking to get back in shape with one of our trainers, you have a home here."
-photo="SOR_6439.jpg"
-button-link="classes"
-button-cta="Book a Class"
-%}
-<!--INCLUDE TRAINING CENTER ROW ENDS-->
+  <!-- INCLUDE TRAINING CENTER ROW STARTS -->
+  {% include row-content-media.html
+  title="Our Training Center"
+  content="The LG Training Center includes a 2,000 square foot mat space for combat sports, as well as our Beat 58 Personal Training Studio.  Whether you’re looking to develop as an athlete in MMA, want to explore the ‘gentle art’ of Brazilian Jiu Jitsu, or are simply looking to get back in shape with one of our trainers, you have a home here."
+  photo="SOR_6439.jpg"
+  %}
+  <!-- INCLUDE TRAINING CENTER ROW ENDS -->
+  <section class="classes-row">
+    <section class="description">
+      <h2>CLASS SCHEDULE</h2>
+      <p>LG currently offers classes on a limited schedule.  We will expand our days over the next several few months, at which point our membership prices will rise.  Sign up for a monthly membership now, and you will remain at your discounted rate forever. LG currently offers classes on a limited schedule.  We will expand our days over the next several few months, at which point our membership prices will rise.  Sign up for a monthly membership now, and you will remain at your discounted rate forever.
 
-<section>
-  <section>
-
+        The average monthly membership for combat sports is $140/month.  To serve as many people as possible, LG provides classes at the following price points according to what you can pay.  Remember, membership funds directly support our youth, so please pay the maximum rate that your budget allows.
+      </p>
+      <ul>
+        LG Class Rate:
+        <li>$8/class</li>
+      </ul>
+      <ul>
+        LG Membership Tiers:
+        <li>$30/month for unlimited classes (priority given to single-parents, young adults, and local residents)</li>
+        <li>$50/month for unlimited classes (recommended for public sector employees)</li>
+        <li>$75/month (market value)</li>
+        <li>$100/month (support training for yourself and one LG youth)</li>
+        *All memberships include access to our fitness equipment.
+      </ul>
+      <ul>
+        LG Youth Membership:
+        <li>$25/month for unlimited classes</li>
+        <li>22 or under?  You may qualify for a free membership.</li>
+        Claim your free class!
+      </ul>
+      <button type="button">SEE FULL SCHEDULE</button>
+    </section>
+    <section class="schedule">
+      <div class="class-card">
+        <h4>CLASS NAME</h4>
+        <span>Friday, January 6</span>
+        <span>7:00pm - 8:30pm</span>
+        <span>Instructor: Jane Smith</span>
+        <a href="#" target="_blank">
+          <button>SIGN UP</button>
+        </a>
+      </div>
+      <div class="class-card">
+        <h4>CLASS NAME</h4>
+        <span>Friday, January 6</span>
+        <span>7:00pm - 8:30pm</span>
+        <span>Instructor: Jane Smith</span>
+        <a href="#" target="_blank">
+          <button>SIGN UP</button>
+        </a>
+      </div>
+      <div class="class-card">
+        <h4>CLASS NAME</h4>
+        <span>Friday, January 6</span>
+        <span>7:00pm - 8:30pm</span>
+        <span>Instructor: Jane Smith</span>
+        <a href="#" target="_blank">
+          <button>SIGN UP</button>
+        </a>
+      </div>
+      <div class="class-card">
+        <h4>CLASS NAME</h4>
+        <span>Friday, January 6</span>
+        <span>7:00pm - 8:30pm</span>
+        <span>Instructor: Jane Smith</span>
+        <a href="#" target="_blank">
+          <button>SIGN UP</button>
+        </a>
+      </div>
+    </section>
   </section>
-</section>
 
-<!--INCLUDE BANNER ROW START-->
-{% include banner.html
-title="Under 22? Check Out Our Success Tracks"
-content="If you are between the ages of 5-22, you may qualify for free training by joining one of our Success Tracks.  Our Tutoring and College Access programs includes weekly tutoring and connection to 2 and 4 year university options.  Our Student Trainer program trains you to become a fitness professional, and links you to an internship with a Boston-based gym.  You may also earn free training by helping to clean and maintain the Training Center.
-"
-button="SEE SUCCESS TRACKS"
-%}
-<!--INCLUDE BANNER ROW ENDS-->
+  <!-- INCLUDE PERSONAL TRAINING ROW STARTS -->
+  {% include row-content-media.html
+  title="Personal Training"
+  content="Become a healthier, fitter you with the help of a LG Student Trainer!  Our dynamic sessions are tailored to your individual fitness goals, whether you want to lose weight, increase muscle tone, or enhance strength.  Each experience is uniquely designed for you, and will leave you feeling empowered and accomplished.
 
-<section class="sponsors">
-  <h3>SPONSORSHIP</h3>
-  {% for sponsors in site.data.sponsors %}
-    <a href="{{ sponsors.url }}">
-      <img src="{{ sponsors.image }}" alt="">
-    </a>
-  {% endfor %}
-</section>
+  Please pay the maximum rate that your budget allows.
+
+  LG Personal Training Rates
+  $15/session (priority given to single-parents and local residents)
+  $30/session (recommended for college students and public sector employees)
+  $60/session (market value)"
+  photo="SOR_6439.jpg"
+  %}
+  <!-- INCLUDE PERSONAL TRAINING ROW ENDS -->
+
+  <!-- INCLUDE BANNER ROW START -->
+  {% include banner.html
+  title="Under 22? Check Out Our Success Tracks"
+  content="If you are between the ages of 5-22, you may qualify for free training by joining one of our Success Tracks.  Our Tutoring and College Access programs includes weekly tutoring and connection to 2 and 4 year university options.  Our Student Trainer program trains you to become a fitness professional, and links you to an internship with a Boston-based gym.  You may also earn free training by helping to clean and maintain the Training Center.
+  "
+  button="SEE SUCCESS TRACKS"
+  %}
+  <!-- INCLUDE BANNER ROW ENDS -->
+
+  <section class="sponsors">
+    <h3>SPONSORSHIP</h3>
+    {% for sponsors in site.data.sponsors %}
+      <a href="{{ sponsors.url }}" target="_blank">
+        <img src="{{ sponsors.image }}" alt="">
+      </a>
+    {% endfor %}
+  </section>

@@ -24,10 +24,8 @@
   display: block;
   height: auto;
   margin: 0 auto;
-  max-height: 253px;
-  max-width: 100%;
+  max-width: 75%;
   text-align: center;
-  margin-top: 130px;
 }
 /* max-height was 200px for .card img */
 .card h4 {

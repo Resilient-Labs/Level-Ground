@@ -48,7 +48,21 @@ h6 {
 
 }
 p {
+  font-family: 'Nunito', 'Open Sans', 'Roboto', sans-serif;
   line-height: 1.45;
+}
+.title-row {
+  text-align: center;
+  width: 100%;
+}
+.title-row a button {
+  background-color: #e0922f;
+  border: none;
+  color: #fff;
+  display: block;
+  padding: 15px 45px;
+  margin: 0 auto;
+  text-align: center;
 }
 .centered {
   margin: 15px auto;

@@ -1,11 +1,11 @@
 .sponsors {
   align-items: center;
+  border-top: 1px solid lightgrey;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   margin: 30px auto;
   width: 75%;
-  border-top: 1px solid lightgrey;
 }
 .sponsors h3 {
   text-align: center;
@@ -14,9 +14,96 @@
 .sponsors a {
   margin: 5px 10px;
   width: calc(100% / 8);
-
 }
 .sponsors a img {
   height: auto;
   width: 100%;
+}
+.classes-row {
+  background-color: #e0922f;
+  display: block;
+  float: left;
+  padding: 60px 0;
+  width: 100%;
+}
+.class-card {
+  background-color: white;
+  float: left;
+  margin: 10px;
+  padding: 20px;
+  text-align: left;
+  width: calc(50% - 30px);
+}
+.class-card h4 {
+  margin-top: 0;
+}
+.class-card span {
+  line-height: 1.5;
+  display: block;
+}
+.schedule .class-card a button {
+  width: 100%;
+}
+.classes-row button {
+  background-color: #fff;
+  border: 1px solid #e0922f;
+  color: #e0922f;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 45px;
+  text-align: center;
+}
+.classes-row .description, .classes-row .schedule {
+  display: inline-block;
+  float: left;
+  padding: 30px;
+  width: calc(50% - 15px);
+}
+.classes-row .description {
+  color: #fff;
+}
+/*-----------------------------------
+# Media Queries
+------------------------------------*/
+/*-----------------------------------
+## Wide Screens, Large Devices
+------------------------------------*/
+@media only screen and (max-width : 1200px) {
+
+}
+/*-----------------------------------
+## Desktops, Medium Devices
+------------------------------------*/
+@media only screen and (max-width : 992px)  {
+  .sponsors a {
+    width: calc(100% / 6);
+  }
+  .class-card {
+    width: calc(100% - 30px);
+  }
+}
+/*-----------------------------------
+## Tablets, Small Devices
+------------------------------------*/
+@media only screen and (max-width : 768px)  {
+  .classes-row .description, .classes-row .schedule {
+    width: 100%;
+  }
+  .sponsors a {
+    width: calc(100% / 4);
+  }
+}
+/*-----------------------------------
+## Phones, Extra Small Devices
+------------------------------------*/
+@media only screen and (max-width: 480px) {
+  .classes-row .description, .classes-row .schedule {
+    width: 100%;
+  }
+  .sponsors a {
+    width: calc(100% / 3);
+  }
+  .class-card {
+    width: 100%;
+  }
 }
