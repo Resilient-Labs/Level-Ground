@@ -17,11 +17,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row;
 }
 .story-card {
   width: 30%;
   text-align: center;
-  padding: 40px 5px;
+  padding: 20px 5px 50px;
 }
 .story-card img {
   border-radius: 50%;
@@ -51,11 +52,23 @@
 ## Tablets, Small Devices
 ------------------------------------*/
 @media only screen and (max-width : 768px)  {
-
+  .story-card {
+    width: 100%;
+    padding: 20px 40px 50px;
+  }
+  .story-row {
+    flex-flow: column;
+  }
 }
 /*-----------------------------------
 ## Phones, Extra Small Devices
 ------------------------------------*/
 @media only screen and (max-width: 480px) {
-
+  .story-card {
+    width: 100%;
+    padding: 20px 5px 50px;
+  }
+  .story-row {
+    flex-flow: column;
+  }
 }
