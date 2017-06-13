@@ -54,6 +54,8 @@ p {
 .title-row {
   text-align: center;
   width: 100%;
+  display: block;
+  clear: both;
 }
 .title-row a button {
   background-color: #e0922f;
