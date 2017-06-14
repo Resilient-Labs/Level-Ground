@@ -31,7 +31,11 @@
 
 }
 .story-card p {
-
+  text-align: left;
+}
+.helper {
+  margin-top: 145px;
+  /*MUIGAI said something very different, like (calc 100% something) instead of using absurd margin top.*/
 }
 /*-----------------------------------
 # Media Queries
