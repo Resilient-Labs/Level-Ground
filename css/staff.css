@@ -1,3 +1,24 @@
+.staff-row {
+  background-color: #fff;
+  padding: 120px;
+  width: 100%;
+}
+.staff-row .staff-card {
+  /*background-color: #fff;*/
+  border: .5px solid #eee;
+  display: inline-block;
+  margin: 10px;
+  padding: 30px;
+  width: calc(100% / 3 - 30px);
+}
+.staff-row .staff-card img {
+  border-radius: 50%;
+  padding: 15px;
+  width: 100%;
+}
+.staff-row .staff-card p {
+  text-align: left;
+}
 /*-----------------------------------
 # Media Queries
 ------------------------------------*/
@@ -11,17 +32,27 @@
 ## Desktops, Medium Devices
 ------------------------------------*/
 @media only screen and (max-width : 992px)  {
-
+  .staff-row {
+    padding: 60px;
+  }
 }
 /*-----------------------------------
 ## Tablets, Small Devices
 ------------------------------------*/
 @media only screen and (max-width : 768px)  {
-
+  .staff-row {
+    padding: 15px;
+  }
+  .staff-row .staff-card {
+    width: calc(100% / 2 - 30px);
+  }
 }
 /*-----------------------------------
 ## Phones, Extra Small Devices
 ------------------------------------*/
 @media only screen and (max-width: 480px) {
-
+  .staff-row .staff-card {
+    margin: 10px auto;
+    width: 100%;
+  }
 }

@@ -1,0 +1,23 @@
+- image: "img/staff-ali.jpg"
+  name: "Ali"
+  position: "Founder and Executive Director"
+
+- image: "img/staff-hudson.jpg"
+  name: "Hudson"
+  position: "Head Athletic and Personal Training Instructor"
+
+- image: "http://via.placeholder.com/100x100"
+  name: "Kin Moy"
+  position: "MMA and Group Fitness Intructor"
+
+- image: "http://via.placeholder.com/100x100"
+  name: "David Moy"
+  position: "Program Coordinator"
+
+- image: "img/staff-melissa.jpg"
+  name: "Melissa Galindo"
+  position: "Program Coordinator"
+
+- image: "img/staff-frederic.jpg"
+  name: "Frederick Melo"
+  position: "Designer and Lead Mentor"
