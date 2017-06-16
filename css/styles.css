@@ -48,8 +48,9 @@ h6 {
 
 }
 p {
-  font-family: 'Nunito', 'Open Sans', 'Roboto', sans-serif;
-  line-height: 1.45;
+  font-family: 'Oswald', 'Nunito', 'Open Sans', 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
 }
 .title-row {
   text-align: center;

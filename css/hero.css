@@ -52,6 +52,7 @@ section.hero, .hero {
 video {
   max-width: 100%;
   position: relative;
+  width: 100%;
 }
 video::before {
   content:"";
