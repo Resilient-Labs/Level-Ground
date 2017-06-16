@@ -31,6 +31,9 @@ section.hero, .hero {
   height: auto;
   width: 100%;
 }
+.hero button {
+
+}
 .hero-overlay {
   padding: 0px 30px;
   position: absolute;
@@ -49,6 +52,7 @@ section.hero, .hero {
 video {
   max-width: 100%;
   position: relative;
+  width: 100%;
 }
 video::before {
   content:"";
@@ -97,6 +101,9 @@ video::before {
   .hero-photo div {
     height: 300px;
   }
+  .hero-photo h1 {
+    top: 25%;
+  }
 }
 /*-----------------------------------
 ## Phones, Extra Small Devices
@@ -113,5 +120,8 @@ video::before {
   }
   .hero-photo div {
     height: 300px;
+  }
+  .hero-photo h1 {
+    top: 25%;
   }
 }

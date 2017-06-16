@@ -7,6 +7,15 @@
 }
 .card.yellow {
   background-color: #e0922f;
+  display: inline-block;
+  height: 100vh;
+  float: left;
+  vertical-align: middle;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  max-height: 100vh;*/
 }
 .card.white {
   background-color: #fff;
@@ -15,10 +24,10 @@
   display: block;
   height: auto;
   margin: 0 auto;
-  max-height: 200px;
-  max-width: 100%;
+  max-width: 75%;
   text-align: center;
 }
+/* max-height was 200px for .card img */
 .card h4 {
   text-align: center;
 }

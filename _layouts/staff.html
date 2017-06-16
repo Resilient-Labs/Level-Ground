@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<!--INCLUDE HERO PHOTO START-->
+{% include hero-photo.html
+title="STAFF"
+photo="SOR_6494.jpg"
+%}
+<!--INCLUDE HERO PHOTO ENDS-->
+
+<section class="staff-row">
+  {% for staff in site.data.staff %}
+    <section class="staff-card">
+      <img src="{{ staff.image }}" alt=""/>
+      <h4>{{ staff.name }}</h4>
+      <h5>{{ staff.position }}</h5>
+    </section>
+  {% endfor %}
+</section>
