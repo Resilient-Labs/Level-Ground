@@ -3,7 +3,7 @@ header {
   display: block;
   left: 0;
   padding: 0 15px;
-  position: fixed;
+  position: absolute;
   top: 0;
   width: calc(100% - 30px);
   z-index: 2;
