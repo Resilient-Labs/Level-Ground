@@ -2,10 +2,10 @@ header {
   background-color: transparent;
   display: block;
   left: 0;
-  padding: 0 15px;
+  padding: 0 30px;
   position: absolute;
   top: 0;
-  width: calc(100% - 30px);
+  width: 100%;
   z-index: 2;
 }
 header nav {
@@ -42,15 +42,7 @@ header nav .logo-container {
   width: calc(100% / 3);
 }
 header nav .logo-container:after {
-  /*content: "";*/
-  /*position: absolute;*/
-  /*height: 0;*/
-  /*width: 0;*/
-  /*top: 94px;*/
-  /*left: 0px;*/
-  /*border-width: 30px 44px 0px;*/
-  /*border-style: solid;*/
-  /*border-color: #e0922f transparent transparent;*/
+
 }
 header nav .logo-container a .logo {
   background-color: #e0922f;
@@ -70,13 +62,9 @@ header nav span a {
 }
 header nav span a button {
   background-color: #e0922f;
-  display: inline-block;
+  border-radius: 0;
   color: white;
-  padding: 10px 10px;
-  border: none;
-  margin-right: 0em;
-  border-radius: 5px;
-  font-size: 16px;
+  margin-right: 0;
 }
 /*-----------------------------------
 # Media Queries
@@ -91,7 +79,9 @@ header nav span a button {
 ## Desktops, Medium Devices
 ------------------------------------*/
 @media only screen and (max-width : 992px)  {
-
+  header {
+    padding: 0 15px;
+  }
 }
 /*-----------------------------------
 ## Tablets, Small Devices

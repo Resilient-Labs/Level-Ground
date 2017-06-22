@@ -1,11 +1,9 @@
-<section class="hero-photo">
+<section class="hero-photo-container">
   <h1>{{ include.title }}</h1>
   {% if include.button-cta %}
     <a href="{{ site.url }}/{{ include.button-link }}">
       <button>{{ include.button-cta }}</button>
     </a>
   {% endif %}
-  <div>
-    <img src="{{ site.baseurl }}/img/{{ include.photo }}" alt="" />
-  </div>
+  <img src="{{ site.baseurl }}/img/{{ include.photo }}" alt="" />
 </section>

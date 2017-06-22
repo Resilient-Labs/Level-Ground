@@ -13,8 +13,8 @@ photo="SOR_6494.jpg"
   {% for staff in site.data.staff %}
     <section class="staff-card">
       <img src="{{ staff.image }}" alt=""/>
-      <h4>{{ staff.name }}</h4>
-      <h5>{{ staff.position }}</h5>
+      <h3>{{ staff.name }}</h3>
+      <p>{{ staff.position }}</p>
     </section>
   {% endfor %}
 </section>

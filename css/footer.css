@@ -1,6 +1,6 @@
 footer {
   background-color: #414345;
-  padding: 20px;
+  padding: 45px;
   color: #fff;
   display: flex!important;
   display: -ms-flexbox;
@@ -14,22 +14,27 @@ footer {
   float: left;
   width: 100%;
 }
+footer div {
+  line-height: 2;
+  padding: 45px;
+}
+footer div section {
+
+}
 footer h6 {
-  color: #fdc43a;
+  color: #e0922f;
   margin: 0;
 }
-footer div {
-  padding: 20px;
-  line-height: 20px;
-}
+
 footer img{
   width: 70px;
   height: 70px;
 }
 footer > section {
-  padding-top: 20px;
-  margin: 0 20px;
+  padding-top: 30px;
+  margin: 0 45px;
   border-top: 1px solid #fff;
+  color: #fff;
   width: 100%;
   display: flex;
   display: -webkit-flex;
@@ -37,9 +42,16 @@ footer > section {
   flex-flow: row;
   justify-content: space-between;
   align-items: center;
-  -webkit-align-items:center;
+  -webkit-align-items: center;
 }
-footer ul {
+footer > section small {
+  color: #fff;
+}
+footer section small a {
+  color: #fff;
+  text-decoration: underline;
+}
+footer div ul {
   display: flex;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -48,14 +60,21 @@ footer ul {
   padding-left: 0;
   margin: 5px 0;
 }
-footer ul li {
+footer div ul li {
   margin-right: 20px;
 }
-.email-address {
+footer div ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #e0922f;
+}
+footer div a {
   color: #fff;
 }
-.address {
-  color: grey;
+footer div .address {
+  color: #fff;
   margin: 0;
 }
 footer i {
@@ -66,10 +85,6 @@ footer i {
 }
 footer h5 {
   margin: 0;
-}
-footer ul a {
-  color: #fff;
-  text-decoration: none;
 }
 /*-----------------------------------
 # Media Queries
@@ -84,13 +99,25 @@ footer ul a {
 ## Desktops, Medium Devices
 ------------------------------------*/
 @media only screen and (max-width : 992px)  {
-
+  footer {
+    padding: 30px;
+  }
+  footer div {
+    padding: 15px 0;
+  }
+  footer > section {
+    margin: 0 auto;
+    padding-top: 30px;
+  }
 }
 /*-----------------------------------
 ## Tablets, Small Devices
 ------------------------------------*/
 @media only screen and (max-width : 768px)  {
-
+  footer > section {
+    margin: 0 auto;
+    padding-top: 15px;
+  }
 }
 /*-----------------------------------
 ## Phones, Extra Small Devices

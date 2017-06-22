@@ -2,8 +2,29 @@
   <h4>Recent Posts</h4>
   {% assign news = site.news | sort: 'date' %}
 
-  {% for news-post in news reversed offset:0 limit:8 %}
-  <a href="{{ site.baseurl }}{{ news-post.url }}" class="news-sidebar-titles">{{
-    news-post.title }}</a>
+  <ul>
+    {% for news-post in news reversed offset:0 limit:8 %}
+    <li>
+      <a href="{{ site.baseurl }}{{ news-post.url }}">{{ news-post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+
+  <h4>Archive</h4>
+    <!--http://chris.house/blog/building-a-simple-archive-page-with-jekyll/-->
+  {% for news-post in news reversed %}
+    {% assign currentDate = news-post.date | date: "%Y" %}
+      {% if currentDate != myDate %}
+        {% unless forloop.first %}</ul>{% endunless %}
+        <h3>{{ currentDate }}</h3>
+        <ul>
+          {% assign myDate = currentDate %}
+      {% endif %}
+          <li>
+            <a href="{{ site.baseurl }}{{ news-post.url }}">
+              <span>{{ news-post.date | date: "%B %-d, %Y" }}</span> - {{ news-post.title }}
+            </a>
+          </li>
+          {% if forloop.last %}</ul>{% endif %}
   {% endfor %}
 </aside>

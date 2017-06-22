@@ -1,21 +1,24 @@
 .banner {
-  align-items: center;
   clear: both;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  margin: 0px auto;
-  padding: 90px 0;
-  width: 66%;
+  display: table-cell;
+  float: left;
+  margin: 45px auto;
+  padding: 45px;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
 }
 .banner h2 {
   clear: both;
+  margin-top: 0;
   text-align: center;
 }
 .banner p {
-  max-width: 80%;
-  margin: 15px auto;
-  text-align: center;
+  margin: 30px auto;
+  padding: 0 45px;
+}
+.banner button {
+  margin: 30px auto;
 }
 .banner.white button {
   background-color: #e0922f;
@@ -42,6 +45,9 @@
   .banner {
     width: 100%;
   }
+  .banner p {
+    padding: 0;
+  }
 }
 /*-----------------------------------
 ## Tablets, Small Devices
@@ -49,8 +55,7 @@
 @media only screen and (max-width : 768px)  {
   .banner {
     margin: 45px auto;
-    padding: 30px;
-    width: 100%;
+    padding: 45px;
   }
   .banner p {
     text-align: left;
@@ -62,11 +67,9 @@
 @media only screen and (max-width: 480px) {
   .banner {
     margin: 30px auto;
-    padding: 15px;
-    width: 100%;
+    padding: 15px 30px;
   }
   .banner p {
     max-width: 100%;
-    text-align: left;
   }
 }

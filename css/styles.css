@@ -15,42 +15,72 @@ html, body {
   box-sizing: border-box; /* IE */
 }
 a {
+  font-family: 'Raleway', 'Nunito', 'Open Sans', 'Roboto', sans-serif;
   text-decoration: none;
 }
+button {
+  border: none;
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
 h1 {
-  font-family: 'Oswald',sans-serif;
-  font-size: 56px;
+  color: #2f2f2f;
+  font-family: 'Oswald', sans-serif;
+  font-size: 52px;
   line-height: 1.5;
   text-transform: uppercase;
 }
 h2 {
-  font-family: 'Oswald',sans-serif;
+  color: #2f2f2f;
+  font-family: 'Oswald', sans-serif;
   font-size: 32px;
   line-height: 1.35;
   text-transform: uppercase;
 }
 h3 {
-  font-family: 'Oswald',sans-serif;
-  font-size: 28px;
+  color: #2f2f2f;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
   line-height: 1.35;
   text-transform: uppercase;
 }
 h4 {
-  font-family: 'Oswald',sans-serif;
+  color: #2f2f2f;
+  font-family: 'Oswald', sans-serif;
   font-size: 24px;
   line-height: 1.45;
   text-transform: uppercase;
 }
 h5 {
-
+  color: #2f2f2f;
+  font-family: 'Raleway', 'Nunito', 'Oswald', sans-serif;
 }
 h6 {
-
+  color: #2f2f2f;
+  font-family: 'Raleway', 'Nunito', 'Oswald', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+li {
+  font-family: 'Raleway', 'Nunito', 'Open Sans', 'Roboto', sans-serif;
 }
 p {
-  font-family: 'Oswald', 'Nunito', 'Open Sans', 'Roboto', sans-serif;
+  color: #2f2f2f;
+  font-family: 'Raleway', 'Nunito', 'Open Sans', 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 1.5;
+}
+small {
+  color: #2f2f2f;
+  font-family: 'Raleway', 'Nunito', 'Open Sans', 'Roboto', sans-serif;
+  font-size: 14px;
 }
 .title-row {
   text-align: center;
@@ -60,10 +90,7 @@ p {
 }
 .title-row a button {
   background-color: #e0922f;
-  border: none;
   color: #fff;
-  display: block;
-  padding: 15px 45px;
   margin: 0 auto;
   text-align: center;
 }
@@ -97,16 +124,16 @@ p {
 ------------------------------------*/
 @media only screen and (max-width: 480px) {
   h1 {
-    font-size: 32px;
+    font-size: 36px;
   }
   h2 {
-    font-size: 26px;
+
   }
   h3 {
-    font-size: 22px;
+
   }
   h4 {
-    font-size: 18px;
+
   }
   h5 {
 

@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<!--<section class="helper"></section>-->
+<!--<section class="title-row">-->
+  <!--<h2>Our Success Tracks</h2>-->
+<!--</section>-->
+{% include hero-photo.html
+title="Our Success Tracks"
+photo="julio-and-andres.jpg"
+%}
+
+<!--INCLUDE CARD STARTS -->
+{% include card.html
+bg-color="white"
+photo="little-ali-phone.jpg"
+title="WORKFORCE DEVELOPMENT"
+content="LG’s Student Trainer program provides a career pathway as a Fitness Professionals, particularly gym managers, personal trainers, and fitness instructors.  Student Trainers learn to train clients, run fitness classes, and have the opportunity to gain nationally-recognized credentials by the National Academy of Sports Medicine.  LG helps youth transition to internships and jobs with Boston-based gyms.  Interested candidates must undergo an interview and selection process.
+"
+%}
+<!--INCLUDE CARD ENDS -->
+
+<!--INCLUDE CARD STARTS -->
+{% include card.html
+bg-color="white"
+photo="studying.jpg"
+title="TUTORING/COLLEGE ACCESS"
+content="LG provides tutoring/assistance with college applications, and works with college partners to help students achieve a 4-year or technical degree.  Earn free training by participating in our tutoring program before athletic training, fulfilling college preparation requirements, and demonstrating an overall commitment to grow in academic excellence."
+%}
+<!--INCLUDE CARD ENDS -->
+
+<section class="title-row">
+  <a href="#" target="_blank">
+    <button>GET IN TOUCH</button>
+  </a>
+</section>
+<section class="success-title">
+  <h2>SUCCESS STORIES</h2>
+</section>
+<section class="story-row">
+  {% for stories in site.data.stories %}
+    <section class="story-card">
+      <img src="{{ stories.image }}" alt=""/>
+      <h4>{{ stories.name }}</h4>
+      <p>{{ stories.story }}</p>
+    </section>
+  {% endfor %}
+</section>
+
+<!-- INCLUDE BANNER ROW START -->
+{% include banner.html
+title="WAYS TO VOLUNTEER"
+content="Host a professional development workshop, tutor, or mentor.  If interested, get in touch today."
+button-cta="GET IN TOUCH"
+button-link="#"
+%}
+<!-- INCLUDE BANNER ROW ENDS -->

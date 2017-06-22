@@ -1,24 +1,28 @@
 .row {
   display: block;
   float: left;
-  padding: 15px;
+  padding: 45px;
   position: relative;
   width: 100%;
 }
 .row .content {
   display: inline-block;
-  padding: 15px;
+  padding: 45px;
   width: 50%;
 }
 .row .media {
   display: inline-block;
   float: left;
-  padding: 15px;
+  padding: 45px;
   width: 50%;
 }
 .row .media img {
+  border: 1px solid #fff;
   height: auto;
   width: 100%;
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
 }
 .row .content button {
   background-color: #e0922f;
@@ -42,14 +46,20 @@
 ## Desktops, Medium Devices
 ------------------------------------*/
 @media only screen and (max-width : 992px)  {
-
+  .row .content, .row .media {
+    padding: 0 45px;
+    width: 100%;
+  }
 }
 /*-----------------------------------
 ## Tablets, Small Devices
 ------------------------------------*/
 @media only screen and (max-width : 768px)  {
+  .row {
+    padding: 15px;
+  }
   .row .content, .row .media {
-    width: 100%;
+    padding: 15px 30px;
   }
 }
 /*-----------------------------------
@@ -57,6 +67,6 @@
 ------------------------------------*/
 @media only screen and (max-width: 480px) {
   .row .content, .row .media {
-    width: 100%;
+    padding: 15px;
   }
 }
