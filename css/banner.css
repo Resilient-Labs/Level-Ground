@@ -15,6 +15,7 @@
 }
 .banner p {
   margin: 30px auto;
+  max-width: 800px;
   padding: 0 45px;
 }
 .banner button {
