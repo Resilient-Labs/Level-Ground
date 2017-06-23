@@ -1,0 +1,76 @@
+.staff-row {
+  background-color: #fff;
+  display: block;
+  float: left;
+  padding: 45px;
+  width: 100%;
+}
+.staff-row .staff-card {
+  border: 1px solid #efefef;
+  display: inline-block;
+  filter: grayscale(100%);
+  margin: 45px 15px;
+  padding: 45px;
+  width: calc( (100% / 3) - 33px);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: box-shadow 0.3s ease-in-out 0s;
+  -moz-transition: box-shadow 0.3s ease-in-out 0s;
+  -o-transition: box-shadow 0.3s ease-in-out 0s;
+  -ms-transition: box-shadow 0.3s ease-in-out 0s;
+  transition: box-shadow 0.3s ease-in-out 0s;
+}
+.staff-row .staff-card img {
+  border-radius: 50%;
+  width: 100%;
+}
+.staff-row .staff-card p {
+  text-align: left;
+}
+.staff-row .staff-card:hover {
+  -webkit-box-shadow: 0 12px 15px rgba(0, 0, 0, .45);
+  -moz-box-shadow: 0 12px 15px rgba(0, 0, 0, .45);
+  box-shadow: 0 12px 15px rgba(0, 0, 0, .45);
+}
+/*-----------------------------------
+# Media Queries
+------------------------------------*/
+/*-----------------------------------
+## Wide Screens, Large Devices
+------------------------------------*/
+@media only screen and (max-width : 1200px) {
+
+}
+/*-----------------------------------
+## Desktops, Medium Devices
+------------------------------------*/
+@media only screen and (max-width : 992px)  {
+  .staff-row .staff-card {
+    margin: 15px 15px;
+    width: calc(100% / 2 - 33px);
+  }
+}
+/*-----------------------------------
+## Tablets, Small Devices
+------------------------------------*/
+@media only screen and (max-width : 768px)  {
+  .staff-row {
+    padding: 15px;
+  }
+  .staff-row .staff-card {
+    padding: 30px;
+  }
+}
+/*-----------------------------------
+## Phones, Extra Small Devices
+------------------------------------*/
+@media only screen and (max-width: 480px) {
+  .staff-row .staff-card {
+    margin: 15px auto;
+    width: 100%;
+  }
+}

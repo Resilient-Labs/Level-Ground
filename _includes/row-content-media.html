@@ -2,13 +2,15 @@
   <div class="content">
     <h3>{{ include.title }}</h3>
     <p>{{ include.content }}</p>
-    <a href="{{ include.button-link }}">
-      <button>
-        {{ include.button-cta }}
-      </button>
-    </a>
+    {% if include.button-cta %}
+      <a href="{{ include.button-link }}">
+        <button>
+          {{ include.button-cta }}
+        </button>
+      </a>
+    {% endif %}
   </div>
   <div class="media">
-    <img src="{{ include.photo }}" alt="" />
+    <img src="{{ site.baseurl }}/img/{{ include.photo }}" alt="" />
   </div>
 </section>

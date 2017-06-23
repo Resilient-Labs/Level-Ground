@@ -1,0 +1,78 @@
+.success-title {
+  background-color: #e0922f;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.success-title h2 {
+  -webkit-margin-before: 0.0em;
+  -webkit-margin-after: 0.0em;
+}
+.story-row {
+  background-color: #e0922f;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+}
+.story-card {
+  width: 30%;
+  text-align: center;
+  padding: 20px 5px 50px;
+}
+.story-card img {
+  border-radius: 50%;
+}
+.story-card h4 {
+
+}
+.story-card p {
+  text-align: left;
+}
+.helper {
+  margin-top: 145px;
+  /*MUIGAI said something very different, like (calc 100% something) instead of using absurd margin top.*/
+}
+/*-----------------------------------
+# Media Queries
+------------------------------------*/
+/*-----------------------------------
+## Wide Screens, Large Devices
+------------------------------------*/
+@media only screen and (max-width : 1200px) {
+
+}
+/*-----------------------------------
+## Desktops, Medium Devices
+------------------------------------*/
+@media only screen and (max-width : 992px)  {
+
+}
+/*-----------------------------------
+## Tablets, Small Devices
+------------------------------------*/
+@media only screen and (max-width : 768px)  {
+  .story-card {
+    width: 100%;
+    padding: 20px 40px 50px;
+  }
+  .story-row {
+    flex-flow: column;
+  }
+}
+/*-----------------------------------
+## Phones, Extra Small Devices
+------------------------------------*/
+@media only screen and (max-width: 480px) {
+  .story-card {
+    width: 100%;
+    padding: 20px 5px 50px;
+  }
+  .story-row {
+    flex-flow: column;
+  }
+}

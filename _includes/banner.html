@@ -7,7 +7,12 @@
   <p>{{ include.content }}</p>
   {% endif %}
 
-  {% if include.button %}
-  <button>{{ include.button }}</button>
+  {% if include.button-cta %}
+  <a href="{{ site.baseurl }}/{{ include.button-link }}">
+    <button>{{ include.button-cta }}</button>
+  </a>
   {% endif %}
+  <!--{% if include.button %}-->
+  <!--<button>{{ include.button }}</button>-->
+  <!--{% endif %}-->
 </section>
