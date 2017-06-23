@@ -1,139 +1,139 @@
-.newswrapper {
-  display: flex;
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox;      /* TWEENER - IE 10 */
-  display: -webkit-flex;
-  flex-flow: row wrap;
-  -webkit-flex-flow:row wrap;
-  justify-content: space-between;
+.news-page {
+  background-color: #efefef;
+  display: block;
+  float: left;
+  padding: 45px;
+  width: 100%;
 }
-.single-post {
-  border: 1px solid lightgrey;
-}
-.multi-post,.single-post {
+.news-posts {
+  display: inline-block;
+  float: left;
   width: 70%;
-  padding: 20px;
 }
-.post-links {
-  width: 25%;
-}
+.news-posts .news-post {
+  background-color: #fff;
+  border: 1px solid #efefef;
+  display: inline-block;
+  margin: 0 auto 15px;
+  padding: 45px;
+  width: 100%;
 
-.post-links ul {
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.news-posts .news-post p {
+
+}
+.news-posts .news-post h4:nth-of-type(1) {
+  margin-top: 0;
+}
+.news-posts .news-post a {
+  color: #2f2f2f;
+}
+.news-posts .news-post a button {
+  background-color: #e0922f;
+  color: #fff;
+  margin: 45px auto;
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+}
+.news-posts .news-post-meta {
+  border-top: 1px solid #eee;
+  display: block;
+  float: left;
+  padding: 15px 0;
+  width: 100%;
+}
+.news-posts .news-post-meta * {
+  margin-right: 15px;
+}
+.news-posts .news-post-meta .fa {
+  color: #e0922f;
+}
+.news-sidebar {
+  background: #fff;
+  display: inline-block;
+  float: left;
+  margin: 0 0 0 45px;
+  padding: 45px;
+  width: calc(30% - 45px);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.news-sidebar h4:nth-of-type(1) {
+  margin-top: 0;
+}
+.news-sidebar h4 {
+  color: #e0922f;
+}
+.news-sidebar ul {
   list-style: none;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
 }
-.post-links ul li {
-  margin: 20px 0;
+.news-sidebar ul li {
+  color: #2f2f2f;
 }
-.post-links a {
-  text-decoration: none;
-  color: grey;
+.news-sidebar ul li a {
+  color: #2f2f2f;
 }
-.multi-post {
-  display: flex;
-  flex-flow: column;
+.news-sidebar ul li a:hover {
+  color: #e0922f;
 }
-.multi-post > .post {
-  border: 1px solid lightgrey;
-  margin-bottom: 40px;
-  padding: 15px;
-}
-.comment h3 {
-  margin-top: 40px;
-  text-align: center;
-}
-.inline-form {
-  display: flex;
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox;      /* TWEENER - IE 10 */
-  display: -webkit-flex;
-  flex-flow: row;
-  -webkit-flex-flow: row;
-  justify-content: space-between;
-  -webkit-justofy-content:space-between;
-  margin: 20px 0;
-}
-.author-date {
-  display: flex;
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox;      /* TWEENER - IE 10 */
-  display: -webkit-flex;
-  flex-flow: row;
-  width: 450px;
-  justify-content: space-between;
-  -webkit-flex-flow: row;
-  -webkit-justofy-content:space-between;
-}
-.author-date span {
-  color: grey;
-}
-.line {
-  width: 100%;
-  border-top: 1px solid grey;
-  margin: 20px auto;
+/*-----------------------------------
+# Media Queries
+------------------------------------*/
+/*-----------------------------------
+## Wide Screens, Large Devices
+------------------------------------*/
+@media only screen and (max-width : 1200px) {
 
 }
-.comment > textarea {
-  columns: 80;
+/*-----------------------------------
+## Desktops, Medium Devices
+------------------------------------*/
+@media only screen and (max-width : 992px)  {
+  .news-page {
+    padding: 30px;
+  }
+  .news-posts {
+    width: 66%;
+  }
+  .news-posts .news-post {
+    padding: 30px;
+  }
+  .news-sidebar {
+    margin: 0 0 0 30px;
+    padding: 30px;
+    width: calc(34% - 30px);
+  }
 }
-.articleTitle {
-  text-decoration: none;
-}
-.comment_box{
-  width: 100%;
-  height: 200px;
-}
-
-/*------------------------------------------------------------------------------
-    Media Queries
-------------------------------------------------------------------------------*/
-@media  (max-width:767px) and (orientation:portrait) {
-  .post-links {
+/*-----------------------------------
+## Tablets, Small Devices
+------------------------------------*/
+@media only screen and (max-width : 768px)  {
+  .news-page {
+    padding: 30px 15px;
+  }
+  .news-posts {
+    width: 100%;
+  }
+  .news-sidebar {
     display: none;
   }
-  .multi-post, .single-post {
-    width: 100%;
-    padding: 0;
-  }
-  .author-date {
-    flex-flow: column;
-    -webkit-flex-flow: column;
-  }
-  .author-date span{
-    width: 70%;
-  }
-  .inline-form {
-    flex-flow: column;
-    -webkit-flex-flow: column;
-  }
-  .comment > textarea {
-    columns: 50;
-  }
 }
-
-@media  (max-width:767px) and (orientation:landscape) {
-  .post-links {
-    display: none;
-  }
-  .multi-post, .single-post {
-    width: 100%;
-    padding: 0;
-  }
-}
-
-@media  (max-width:1024px) and (orientation:portrait) {
-  .post-links {
-    display: none;
-  }
-  .multi-post, .single-post {
-    width: 100%;
-    padding: 0;
-  }
-}
-
-@media  (max-width:1024px) and (orientation:landscape) {
+/*-----------------------------------
+## Phones, Extra Small Devices
+------------------------------------*/
+@media only screen and (max-width: 480px) {
 
 }

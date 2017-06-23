@@ -1,0 +1,18 @@
+<section class="banner white">
+  {% if include.title %}
+  <h2>{{ include.title }}</h2>
+  {% endif %}
+
+  {% if include.content %}
+  <p>{{ include.content }}</p>
+  {% endif %}
+
+  {% if include.button-cta %}
+  <a href="{{ site.baseurl }}/{{ include.button-link }}">
+    <button>{{ include.button-cta }}</button>
+  </a>
+  {% endif %}
+  <!--{% if include.button %}-->
+  <!--<button>{{ include.button }}</button>-->
+  <!--{% endif %}-->
+</section>

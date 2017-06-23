@@ -1,33 +1,56 @@
 <footer>
   <div>
     <section>
-      <i class="fa fa-facebook-official" aria-hidden="true"></i>
-      <i class="fa fa-twitter" aria-hidden="true"></i>
-      <i class="fa fa-envelope" aria-hidden="true"></i>
+      <a href="https://www.facebook.com/LevelGroundMMA/" target="_blank">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+      </a>
+      <a href="https://twitter.com/levelgroundmma" target="_blank">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      </a>
+      <a href="mailto:ali@levelgroundmma">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+      </a>
     </section>
     <h6>Site Map</h6>
     <ul>
-      <li><a href="gym.html">Classes</a></li>
-      <li>Hire Us</li>
+      <li>
+        <a href="{{ site.baseurl }}/classes">Classes</a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/staff">Staff</a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/gym">Gym</a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/success-tracks">Success Tracks</a>
+      </li>
+      <li>
+        <a href="{{ site.baseurl }}/blog">News</a>
+      </li>
     </ul>
     <h6>Contribute</h6>
     <ul>
-      <li><a href="donate.html">Give</a></li>
-      <li>Volunteer</li>
+      <li>
+        <a href="{{ site.baseurl }}/donate">Donate</a>
+      </li>
     </ul>
   </div>
   <div>
-    <h5>Level Ground</h5>
-    <h5>Mixed Martial Arts</h5>
-
+    <h6>Level Ground Mixed Martial Arts</h6>
     <p class="address">50 Milk Street, Floor 17</p>
     <p class="address">Boston, MA, 02109</p>
     <p class="address">410-533-2210</p>
-    <span class="email-address">Ali@LevelGroundMMA.org</span>
+    <a href="mailto:ali@levelgroundmma.org">ali@levelgroundmma.org</a>
   </div>
   <section>
-    <p>Level Ground Mixed Martial Arts is a tax-exempt organization under the IRS.</p>
-    <img src="/img/new-logo-white.png" alt="">
+    <small>Level Ground Mixed Martial Arts is a tax-exempt organization under the IRS.
+      Website developed by a
+      <a href="http://www.resilientcoders.org" target="_blank">Resilient Coder</a> and
+      designs by <a href="http://jlamp.github.io/" target="_blank">Jonathan Lampron</a>.
+    </small>
+    <a href="{{ site.baseurl }}/">
+      <img src="{{ site.baseurl }}/img/LG_MMA_logo_ko.png" alt="logo">
+    </a>
   </section>
-
 </footer>

@@ -1,0 +1,24 @@
+<section class="card {{ include.bg-color }}">
+  {% if include.section-title %}
+  <section class="title-row">
+    <h2>{{ include.section-title }}</h2>
+  </section>
+  {% endif %}
+  <div>
+    <img src="{{ site.baseurl }}/img/{{ include.photo }}" />
+  </div>
+  <h4>{{ include.title }}</h4>
+  <p>{{ include.content }}</p>
+  {% if include.button %}
+  <a href="{{ include.button-link }}">
+    <button>{{ include.button }}</button>
+  </a>
+  {% endif %}
+  {% if include.section-button %}
+  <section class="button-row">
+    <a href="{{ include.section-button-link }}">
+      <button>{{ include.section-button }}</button>
+    </a>
+  </section>
+  {% endif %}
+</section>

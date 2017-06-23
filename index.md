@@ -1,5 +1,5 @@
 ---
-layout: index
-title:
+layout: home
+title: LG MMA
 permalink: /
 ---
